@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'main/css/index.css' %}">
+</head>
+<body>
+    <nav>
+        <img src="{% static 'main/images/photo2.png' %}" alt="">
+        <h1>Сайт визитка</h1>
+        <ul>
+            <a href="{% url 'main' %}"><li>Главная</li></a>
+            <a href="{% url 'about' %}"><li>Обо мне</li></a>
+        </ul>
+    </nav>
+    {% block text %}{% endblock %}
+</body>
+</html>

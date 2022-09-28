@@ -1,0 +1,47 @@
+body{
+    background: #1a1a1a;
+}
+
+nav{
+    background: black;
+    float: left;
+    width: 15%;
+    height: 100vh;
+
+}
+
+nav img{
+    width: 230px;
+}
+
+nav h1{
+    margin-left: 16px;
+    font-size: 33px;
+    color: #2b6cc4;
+}
+
+a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+ul li, ul a{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+ul li:hover, ul a:hover {
+    color: #2b6cc4;
+}
+
+.main{
+    float: left;
+    color: white;
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 80%;
+}
+
+.main h1 {font-size: 50px;}
+.main p {font-size: 25px;}
